@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Η Ιστοσελίδα Μου</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50; /* Πράσινο χρώμα */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2196F3; /* Μπλε χρώμα */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #0b7dda;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #4CAF50; /* Πράσινο χρώμα */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-form {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ΕΛΑΙΟΛΑΔΟ Κ.Δ</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Αρχική</a>
+    </nav>
+
+    <div class="container">
+        <!-- Σχετικά -->
+        <section id="about">
+            <h2>Σχετικά με Εμένα</h2>
+            <p>Γεία σου. Για να μπόρεσες να μπεις στην ιστοσελίδα ξέρεις ήδη ποιός είμαι. Στείλε μου email στο dimitriskaltapanidis@gmail.com για να κάνεις την παραγγελία σου 
+και εγώ θα επικεινωνήσω άμμεσα μαζι σου.!</p>
+        </section>
+
+        <!-- Πληροφορείες -->
+        <section id="services">
+            <h2>Οι Υπηρεσίες Μου</h2>
+            <ul>
+                <li>Ποιότητα: ΕΞΤΡΑ ΠΑΡΘΕΝΟ ΕΛΑΙΟΛΑΔΟ</li>
+                <li>Οξύτητα: 0.25</li>
+                <li>Τιμή: Στείλε μου μύνημα.</li>
+                <li>Λίγα λόγια: Τα χωράφια μας βρίσκονται στην περιοχή της Βισαλτίας, στο νομό Σερρών. Πρόκειται για ελαιόλαδο πρωτης ποιότητας προερχόμενο απο υγιεί καρπό ΧΩΡΙΣ χημικά και
+απο χωράφια καλλιεργημένα με μεράκι. </li>
+            </ul>
+        </section>
+
+        <!-- Επικοινωνία -->
+        <section id="contact">
+            <h2>Επικοινωνία</h2>
+            <div class="contact-form">
+                <h3>Στείλτε μου ένα μήνυμα στα γκρικλισ.</h3>
+                <form action="mailto:dimitriskaltapanidis@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Το όνομά σας" required>
+                    <textarea name="message" rows="5" placeholder="Το μήνυμά σας" required></textarea>
+                    <button type="submit">Αποστολή</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Η Ιστοσελίδα Μου. Όλα τα δικαιώματα διατηρούνται.</p>
+    </footer>
+</body>
+</html>
